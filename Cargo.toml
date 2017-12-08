@@ -1,0 +1,10 @@
+[package]
+name = "cargo_outdated_bug"
+version = "0.1.0"
+authors = ["Ryan Leckey <leckey.ryan@gmail.com>"]
+
+[dependencies]
+reqwest = "0.8.1"
+
+[patch.crates-io]
+reqwest = { git = "https://github.com/seanmonstar/reqwest" }
